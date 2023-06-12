@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <style>
+      #parent {
+        box-sizing:border-box;
+        background-color: aliceblue;
+        border: 2px solid black;
+        width: 608px;
+        height: 300px;
+        position: relative;
+      }
+
+      #movingImg {
+        position: absolute;
+        left: 0;
+      }
+
+      button {
+        display: inline-block;
+        margin-top: 16px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <img src="bat.png" alt="bat" id="movingImg" />
+    </div>
+    <button type="button" id="goBtn">Go</button>
+    <script src="main.js"></script>
+  </body>
+</html>

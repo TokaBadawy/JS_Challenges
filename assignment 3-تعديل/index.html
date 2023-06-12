@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <style>
+        #boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+
+        .bgPink {
+            background-color: pink;
+        }
+
+        .bgOrange {
+            background-color: orangered;
+        }
+
+        .bgBlue {
+            background-color: mediumblue;
+        }
+
+        .bgGreen {
+            background-color: greenyellow;
+        }
+
+        .disabled {
+            cursor: default;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="boxes">
+        <div class="box bgPink"></div>
+        <div class="box bgBlue"></div>
+        <div class="box bgOrange"></div>
+        <div class="box bgGreen"></div>
+    </div>
+    <script src="functions.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
